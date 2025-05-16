@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FileCleaner.Core\FileCleaner.Core.csproj" />
+    <ProjectReference Include="..\FileCleaner.Data\FileCleaner.Data.csproj" />
+    <ProjectReference Include="..\FileCleaner.Email\FileCleaner.Email.csproj" />
+  </ItemGroup>
+
 </Project>
